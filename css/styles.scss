@@ -1,0 +1,81 @@
+$color-primary: #3046c5;
+$color-secondary: #5637dd;
+$color-pale: #cec8ff;
+$color-mid: #901cad;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17a2b8;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+  font-family: $body-font;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+}
+
+h2 {
+  color: $color-primary;
+}
+
+header {
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    $color-secondary,
+    $color-primary,
+    $color-dark
+  );
+  color: white;
+  h2 {
+    color: $color-pale;
+  }
+}
+
+footer {
+  background-image: linear-gradient($color-pale, white);
+  padding: 20px 0;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: $color-mid;
+}
+
+.accordion-button {
+  background-color: #d3d3d3;
+}
+
+.carousel-caption {
+  background-color: $color-black-transparent;
+}
+.carousel {
+  border: solid $color-secondary;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.custom-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+@import "modal";
+@import "review-section";
+@import "weather";
