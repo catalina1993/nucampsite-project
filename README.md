@@ -1,4 +1,4 @@
-# Nucampsite App 🏕️🌲
+# Nucampsite App
 
 ## Description
 The **Nucampsite App** is a project I built during my **Nucamp Bootcamp workshops** to practice front-end concepts. This web application provides an interactive way to explore campsites, view campsite details, and manage user interactions.
